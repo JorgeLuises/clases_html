@@ -1,0 +1,23 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color:rgb(28,30,31);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Textos*/
+.enlace, ol {
+    color:rgb(125,237,165);
+    text-decoration: none;
+}
+.parrafo {
+    color: rgb(209,205,199);
+}
+.negritas {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+h2, h1 {
+    color: rgb(255, 255, 255);
+}
