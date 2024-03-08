@@ -1,0 +1,19 @@
+body{
+    background-color: #414141;
+}
+.cabecera{
+    background-color: #282828;
+    color: green;
+    padding: 1rem 0 1rem 1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+    color: white;
+    margin: 0;
+    padding: .5rem 0 .5rem 1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.primer{
+    position: sticky;
+    top:0;
+}

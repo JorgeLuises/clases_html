@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+}
+.cabecera {
+    height: 5rem;
+    background-color: cornflowerblue;
+    margin-top: .5rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 85px;
+    text-align: center;
+    padding: 1rem;
+}
+.lateral{
+    width: 35%;
+    height: 25rem;
+    background-color: brown;
+    position: relative;
+    top: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 85px;
+    text-align: center;
+    padding-top: 10rem;
+}
+.articulo{
+    width: 60rem;
+    height: 25rem;
+    background-color: crimson;
+    position: relative;
+    left: 35rem;
+    bottom: 35rem;
+    margin-top: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 85px;
+    text-align: center;
+    padding-top: 10rem;
+}
+.imagen{
+    width: 12rem;
+    height: 12rem;
+    background-color: rgba(221, 96, 96, 0.945);
+}
+.img_1{
+    position: absolute;
+    left: 45rem;
+    top: 22rem;
+}
+.img_2{
+    position: absolute;
+    left: 25rem;
+    top: 22rem;
+}
+.img_3{
+    position: absolute;
+    left: 5rem;
+    top: 22rem;
+}
+.pie{
+    height: 5rem;
+    background-color: chocolate;
+    position: relative;
+    bottom: 34rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 85px;
+    text-align: center;
+    padding: 1rem;
+}
