@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+}
+.cuadro_padre{
+    width: 55rem;
+    height: 35rem;
+    background-color: rgb(10, 127, 185);
+    position: absolute;
+    top:15%;
+    left:20%;
+}
+.caja {
+    width: 5rem;
+    height: 5rem;
+    background-color: white;
+}
+.c1{
+    position: absolute;
+    top:15rem;
+    left:20rem;
+}
+.c2{
+    position: absolute;
+    top:25rem;
+    left:20rem;
+}
+.c3{
+    position: absolute;
+    top:25rem;
+    left:10rem;
+}
+.c4{
+    position: absolute;
+    top:15rem;
+    left:10rem;
+}
+.c5{
+    position: absolute;
+    top:15rem;
+    left:35rem;
+}
+.c6{
+    position: absolute;
+    top:25rem;
+    left:35rem;
+}
+.c7{
+    position: absolute;
+    top:25rem;
+    left:45rem;
+}
+.c8{
+    position: absolute;
+    top:15rem;
+    left:45rem;
+}
