@@ -1,0 +1,144 @@
+/*Para celular*/
+body{
+    background-color: white;
+}
+.tablet{
+    display: none;
+}
+.desktop{
+    display: none;
+}
+.xl{
+    display: none;
+}
+.doble{
+    display: none;
+}
+.triple{
+    display: none;
+}
+
+/*Para tablet*/
+@media screen and (min-width:768px) {
+    body{
+        background-color: blue;
+    }
+    .tablet{
+        display: block;
+    }
+    .celular{
+        display: none;
+    }
+    .desktop{
+        display: none;
+    }
+    .xl{
+        display: none;
+    }
+    .doble{
+        display: none;
+    }
+    .triple{
+        display: none;
+    }
+}
+
+/*Para desktop*/
+@media screen and (min-width:1024px) {
+    body{
+        background-color: red;
+    }
+    .desktop{
+        display: block;
+    }
+    .tablet{
+        display: none;
+    }
+    .celular{
+        display: none;
+    }
+    .xl{
+        display: none;
+    }
+    .doble{
+        display: none;
+    }
+    .triple{
+        display: none;
+    }
+}
+
+/*Para pantallas de 1280px */
+@media screen and (min-width:1280px) {
+    body{
+        background-color: green;
+    }
+    .xl{
+        display: block;
+    }
+    .tablet{
+        display: none;
+    }
+    .desktop{
+        display: none;
+    }
+    .celular{
+        display: none;
+    }
+    .doble{
+        display: none;
+    }
+    .triple{
+        display: none;
+    }
+}
+
+/*Para pantallas de 1536px */
+@media screen and (min-width: 1536px) {
+    body{
+        background-color: yellow;
+    }
+    .doble{
+        display: block;
+    }
+    .tablet{
+        display: none;
+    }
+    .desktop{
+        display: none;
+    }
+    .xl{
+        display: none;
+    }
+    .celular{
+        display: none;
+    }
+    .triple{
+        display: none;
+    }
+}
+
+/*Para pantallas de 1920px */
+@media screen and (min-width: 1920px) {
+    body{
+        background-color: brown;
+    }
+    .triple{
+        display: block;
+    }
+    .tablet{
+        display: none;
+    }
+    .desktop{
+        display: none;
+    }
+    .xl{
+        display: none;
+    }
+    .doble{
+        display: none;
+    }
+    .celular{
+        display: none;
+    }
+}
