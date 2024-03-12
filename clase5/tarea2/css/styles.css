@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+}
+/*Encabezado*/
+.buscador {
+    background-color: rgba(70, 69, 69, 0.807);
+    border: 10px dotted white;
+    width: 65%;
+    position:absolute;
+    left:15%;
+    border-radius: 25px;
+    position: relative;
+}
+.lista {
+    color: white;
+    font-weight: bold;
+}
+.palabra {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*Section*/
+/*.contenido_principal {
+    position: relative;
+}*/
+section{
+    background-color: rgba(70, 69, 69, 0.807);
+    width:65%;
+    border-radius: 7px;
+    padding: 10px;
+}
+h2, h3{
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+    color: gray;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.ejemplo {
+    background-color: black;
+    color: green;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.seccion_1 {
+    position: relative;
+    left:15%;
+    top: 2rem;
+}
+.sintaxis {
+    width: 60%;
+    margin-left: 3rem;
+}
+.seccion_2 {
+    position: relative;
+    left:15%;
+    top: 55px;
+}
+.seccion_3 {
+    position: relative;
+    left:15%;
+    top: 80px;
+}
+.seccion_4 {
+    position: relative;
+    left:15%;
+    top: 105px;
+}
