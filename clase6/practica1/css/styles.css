@@ -1,0 +1,36 @@
+.contenedor{
+    width: 90%;
+    height: 100%;
+    border: 20px solid blueviolet;
+}
+.caja{
+    width: 5rem;
+    height: 5rem;
+    border: 10px solid blue;
+}
+.contenedor_1{
+    display:flex;
+    align-items:start;
+    justify-content: start;
+}
+.contenedor_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor_3{
+    display: flex;
+    justify-content: end;
+}
+.contenedor_4{
+    display: flex;
+    justify-content: space-around;
+}
+.contenedor_5{
+    display: flex;
+    justify-content: space-between;
+}
+.contenedor_6{
+    display: flex;
+    justify-content: space-evenly;
+}

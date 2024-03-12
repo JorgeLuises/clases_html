@@ -1,0 +1,80 @@
+/*Encabezado*/
+.encabezado{
+    position: relative;
+}
+.div_encabezado{
+    position: absolute;
+    left: 20rem;
+}
+.titulo{
+    letter-spacing: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+.span_titulo{
+    font-weight: bold;
+}
+
+/*contenido principal*/
+section{
+    position: relative;
+}
+.div_section{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.img{
+    height: 301px;
+    width: 25rem;
+}
+h4 {
+    font-size: 25px;
+    font-weight: bold;
+}
+.parrafo_section{
+    color: gray;
+    margin-bottom: 40px;
+}
+.referencia{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: gray;
+}
+.div_section1{
+    position: absolute;
+    left: 20rem;
+    top:13rem;
+}
+.div_section2{
+    position: absolute;
+    left: 20rem;
+    top: 47rem;
+}
+.div_section3{
+    position: absolute;
+    left:20rem;
+    top: 80rem;
+    margin:25px auto;
+}
+.div_section4{
+    position:absolute;
+    left: 20rem;
+    top: 115rem;
+    margin:20px auto;
+}
+.div_section5 {
+    position:absolute;
+    left: 20rem;
+    top: 150rem;
+    margin:10px auto;
+}
+
+/*Querie para Tablet*/
+@media screen and (min-width:768px) {
+    .div_section2 {
+        display: inline;
+    }
+}
