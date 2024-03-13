@@ -1,0 +1,39 @@
+/*color del body*/
+$body_color: black;
+
+/*header (buscador)*/
+$buscador_color: rgba(70, 69, 69, 0.807);
+$buscador_borde: 10px dotted white;
+$ancho: 65%;
+$borde_contenedor: 25px;
+
+/*lista*/
+$color_fuente: white;
+$grosor_fuente: bold;
+
+/*hipervinculos*/
+$tamaño_fuente: 15px;
+
+/*section*/
+$color_seccion: rgba(70, 69, 69, 0.807);
+$borde_seccion: 7px;
+$separacion: 10px;
+
+/*parrafos*/
+$color_parrafo: gray;
+$tamaño_parrafo: 20px;
+$fuente_parrafo: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+/*div_sintaxis*/
+$color_sintaxis: green;
+$margen_sintaxis: 15px;
+$borde_sintaxis: 10px;
+
+/*mixins*/
+@mixin posicionamiento ($flex_direction, $align_items, $justify_content) {
+    display: flex;
+    flex-direction: $flex_direction;
+    align-items: $align_items;
+    justify-content: $justify_content;
+    margin: 2rem;
+}

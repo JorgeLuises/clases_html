@@ -1,0 +1,18 @@
+.buscador {
+    background-color: $buscador_color;
+    border: $buscador_borde;
+    width: 65%;
+    border-radius: borde_contenedor;
+    position: relative;
+    left: 17%;
+}
+.lista {
+    color: $color_fuente;
+    font-weight: $grosor_fuente;
+}
+.palabra {
+    font-size: $tamaño_fuente;
+    color: $color_fuente;
+    font-weight: $grosor_fuente;
+    font-family: $fuente_parrafo;
+}

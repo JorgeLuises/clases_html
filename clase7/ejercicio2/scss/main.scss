@@ -1,0 +1,8 @@
+@import "globals";
+
+body {
+    background-color: $body_color;
+}
+
+@import "header";
+@import "principal";

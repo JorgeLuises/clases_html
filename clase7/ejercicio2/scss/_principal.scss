@@ -1,0 +1,28 @@
+section {
+    background-color: $color_seccion;
+    border-radius: $borde_seccion;
+    width: $ancho;
+    padding: $separacion;
+    margin: 2rem;
+}
+main {
+    @include posicionamiento (column, center, center);
+}
+h2, h3 {
+    color: $color_fuente;
+    font-weight: $grosor_fuente;
+    font-family: $fuente_parrafo;
+}
+p {
+    color: $color_parrafo;
+    font-size: $tamaño_parrafo;
+    font-family: $fuente_parrafo;
+}
+.ejemplo {
+    background-color: $body_color;
+    color: $color_sintaxis;
+    padding: $margen_sintaxis;
+    border-radius: $borde_sintaxis;
+    width: 60%;
+    margin-left: 3rem;
+}
