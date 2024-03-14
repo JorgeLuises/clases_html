@@ -1,0 +1,40 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    position: relative;
+}
+.contenedor {
+    background-color: $otro_color;
+    @include posicion_contenedor ();
+    position: absolute;
+    top: 13rem;
+    left: 13rem;
+}
+.contenido {
+    margin-right: $margen_derecho_contenido;
+    margin-left: $margen_izquierdo_contenido;
+    position: relative;
+    h1 {
+        color: $color_titulo;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .usuario {
+        .texto_avatar {
+            color: $color_titulo;
+            font-weight: bold;
+            line-height: 2rem;
+            span{
+                color: $color_parrafos;
+                font-weight: normal;
+            }
+        }
+    }
+    p {
+        color: $color_parrafos;
+        line-height: 1.5rem;
+    }
+}

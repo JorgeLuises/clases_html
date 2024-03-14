@@ -1,0 +1,7 @@
+@import "globals";
+body {
+    background-color: $color_body;
+}
+@import "principal";
+@import "secciones";
+@import "media_queries";

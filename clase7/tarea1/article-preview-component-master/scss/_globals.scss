@@ -1,0 +1,24 @@
+/*Colores*/
+$color_body: hsl(210, 46%, 95%);
+$color_titulo: hsl(217, 19%, 35%);
+$color_parrafos: hsl(214, 17%, 51%);
+$otro_color: white;
+
+/*Posiciones*/
+@mixin posicion_contenedor () {
+    display: flex;
+    justify-content: space-between;
+}
+@mixin posicion_media () {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+$margen_derecho_contenido: 2rem;
+$margen_izquierdo_contenido: 2rem;
+
+/*Imagenes*/
+$borde_mueble: 15px;
+$borde_avatar: 65%;
+

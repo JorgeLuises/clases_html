@@ -1,0 +1,90 @@
+/*Colores*/
+/*Posiciones*/
+/*Imagenes*/
+body {
+  background-color: hsl(210, 46%, 95%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+.contenedor {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 13rem;
+  left: 13rem;
+}
+
+.contenido {
+  margin-right: 2rem;
+  margin-left: 2rem;
+  position: relative;
+}
+.contenido h1 {
+  color: hsl(217, 19%, 35%);
+  font-size: 2rem;
+  font-weight: bold;
+}
+.contenido .usuario .texto_avatar {
+  color: hsl(217, 19%, 35%);
+  font-weight: bold;
+  line-height: 2rem;
+}
+.contenido .usuario .texto_avatar span {
+  color: hsl(214, 17%, 51%);
+  font-weight: normal;
+}
+.contenido p {
+  color: hsl(214, 17%, 51%);
+  line-height: 1.5rem;
+}
+
+section {
+  width: 69%;
+  height: 18rem;
+  border-radius: 15px;
+}
+
+div {
+  width: 100%;
+  height: 100%;
+}
+
+.usuario {
+  display: flex;
+  align-items: start;
+  position: absolute;
+  top: 12rem;
+}
+
+.mueble {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.avatar {
+  width: 65px;
+  height: 65px;
+  border-radius: 65%;
+  margin-right: 25px;
+}
+
+@media screen and (max-width: 375px) {
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=main.css.map */
